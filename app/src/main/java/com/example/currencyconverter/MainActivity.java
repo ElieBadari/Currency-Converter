@@ -36,16 +36,26 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     public void convert(View v){
 
+        Double output_money;
         Double input_money =  Double.parseDouble(money_amount.getText().toString());
+        if(spinner.getSelectedItem().toString() == "USD"){
+            output_money = input_money/22000;
+            String message = "The input amount (LBP) in USD is: " + output_money;
+        }
+        else{
+            output_money = input_money*22000;
+            String message = "The input amount (USD) in LBP is: " + output_money;
 
-
-        Toast.makeText(getApplicationContext(),"insert converted amount here", Toast.LENGTH_LONG).show();
+        }
+        Toast.makeText(getApplicationContext(),"message", Toast.LENGTH_LONG).show();
 
     }
+
 
     @Override
     public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
         
+
     }
 
     @Override
