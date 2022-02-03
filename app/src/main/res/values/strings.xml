@@ -3,4 +3,8 @@
     <string name="currency_converter">Currency Converter</string>
     <string name="convert">Convert</string>
     <string name="enter_amount">Enter Amount</string>
+    <string name="to">To</string>
+    <string name="from">From</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="currency">currency</string>
 </resources>
