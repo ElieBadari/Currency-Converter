@@ -9,7 +9,6 @@ import android.widget.Spinner;
 import android.widget.Toast;
 import java.text.DecimalFormat;
 
-
 public class MainActivity extends AppCompatActivity {
 
     EditText money_amount;
@@ -60,8 +59,5 @@ public class MainActivity extends AppCompatActivity {
         else{
             Toast.makeText(getApplicationContext(),"Select Currency",Toast.LENGTH_SHORT).show();
         }
-
-
     }
-
 }

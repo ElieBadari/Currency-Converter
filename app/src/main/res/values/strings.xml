@@ -5,6 +5,7 @@
     <string name="to">To</string>
     <string name="from">From</string>
     <string name="enter_amount">Enter Amount</string>
-    <string name="currency">currency</string>
+    <string name="currency">Currency</string>
+
 
 </resources>
